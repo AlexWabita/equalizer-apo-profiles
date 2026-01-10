@@ -1,0 +1,17 @@
+# ================================================================
+# A11. PRAYER/RITUAL MODE - Focused, Contemplative
+# ================================================================
+# Purpose: Personal prayer, spiritual rituals, sacred moments
+# Focus: Minimal bass, clear mids, peaceful atmosphere
+# Save as: config_prayer.txt
+Preamp: -2 dB
+Filter: ON PK Fc 40 Hz Gain 2 dB Q 1.2
+Filter: ON PK Fc 70 Hz Gain 3 dB Q 1.1
+Filter: ON PK Fc 100 Hz Gain 3 dB Q 1.0
+Filter: ON PK Fc 200 Hz Gain 2 dB Q 1.0
+Filter: ON PK Fc 500 Hz Gain 2 dB Q 0.9
+Filter: ON PK Fc 1000 Hz Gain 3 dB Q 0.8
+Filter: ON PK Fc 2000 Hz Gain 4 dB Q 0.8
+Filter: ON PK Fc 4000 Hz Gain 3 dB Q 0.9
+Filter: ON PK Fc 7000 Hz Gain 3 dB Q 1.0
+Filter: ON PK Fc 11000 Hz Gain 2 dB Q 1.1

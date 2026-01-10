@@ -1,0 +1,17 @@
+# ================================================================
+# B1. HIP HOP - Deep Bass, Punchy Beats
+# ================================================================
+# Save as: config_hiphop.txt
+Preamp: -7 dB
+Filter: ON PK Fc 30 Hz Gain 12 dB Q 1.0
+Filter: ON PK Fc 45 Hz Gain 13 dB Q 0.9
+Filter: ON PK Fc 60 Hz Gain 11 dB Q 0.8
+Filter: ON PK Fc 85 Hz Gain 9 dB Q 0.7
+Filter: ON PK Fc 120 Hz Gain 7 dB Q 0.8
+Filter: ON PK Fc 200 Hz Gain 4 dB Q 0.9
+Filter: ON PK Fc 400 Hz Gain 0 dB Q 0.8
+Filter: ON PK Fc 1000 Hz Gain 2 dB Q 0.7
+Filter: ON PK Fc 2500 Hz Gain 4 dB Q 0.7
+Filter: ON PK Fc 5000 Hz Gain 5 dB Q 0.8
+Filter: ON PK Fc 8000 Hz Gain 5 dB Q 0.9
+Filter: ON PK Fc 12000 Hz Gain 4 dB Q 1.0

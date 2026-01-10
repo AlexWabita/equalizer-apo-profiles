@@ -1,0 +1,16 @@
+# ================================================================
+# B8. DANCEHALL - Energetic Bass, Rhythmic
+# ================================================================
+# Save as: config_dancehall.txt
+Preamp: -6 dB
+Filter: ON PK Fc 32 Hz Gain 11 dB Q 1.0
+Filter: ON PK Fc 50 Hz Gain 12 dB Q 0.9
+Filter: ON PK Fc 75 Hz Gain 10 dB Q 0.8
+Filter: ON PK Fc 110 Hz Gain 8 dB Q 0.8
+Filter: ON PK Fc 180 Hz Gain 5 dB Q 0.9
+Filter: ON PK Fc 400 Hz Gain 1 dB Q 0.8
+Filter: ON PK Fc 1000 Hz Gain 4 dB Q 0.7
+Filter: ON PK Fc 2500 Hz Gain 5 dB Q 0.7
+Filter: ON PK Fc 5000 Hz Gain 6 dB Q 0.8
+Filter: ON PK Fc 8500 Hz Gain 6 dB Q 0.9
+Filter: ON PK Fc 13000 Hz Gain 5 dB Q 1.0

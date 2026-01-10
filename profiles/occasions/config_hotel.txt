@@ -1,0 +1,18 @@
+# ================================================================
+# A14. HOTEL/LOUNGE MODE - Sophisticated, Refined
+# ================================================================
+# Purpose: Hotels, lounges, upscale environments
+# Focus: Elegant, smooth, professional atmosphere
+# Save as: config_hotel.txt
+Preamp: -3 dB
+Filter: ON PK Fc 35 Hz Gain 4 dB Q 1.1
+Filter: ON PK Fc 60 Hz Gain 5 dB Q 1.0
+Filter: ON PK Fc 90 Hz Gain 5 dB Q 0.9
+Filter: ON PK Fc 150 Hz Gain 4 dB Q 0.9
+Filter: ON PK Fc 300 Hz Gain 2 dB Q 0.9
+Filter: ON PK Fc 700 Hz Gain 3 dB Q 0.8
+Filter: ON PK Fc 1500 Hz Gain 4 dB Q 0.8
+Filter: ON PK Fc 3000 Hz Gain 4 dB Q 0.8
+Filter: ON PK Fc 6000 Hz Gain 4 dB Q 0.9
+Filter: ON PK Fc 10000 Hz Gain 3 dB Q 1.0
+Filter: ON PK Fc 14000 Hz Gain 2 dB Q 1.1

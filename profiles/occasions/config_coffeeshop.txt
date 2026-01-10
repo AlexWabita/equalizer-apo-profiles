@@ -1,0 +1,17 @@
+# ================================================================
+# A12. COFFEE SHOP MODE - Background Ambiance
+# ================================================================
+# Purpose: Cafes, conversation spaces, relaxed atmosphere
+# Focus: Non-intrusive, warm, comfortable background sound
+# Save as: config_coffeeshop.txt
+Preamp: -2 dB
+Filter: ON PK Fc 40 Hz Gain 3 dB Q 1.1
+Filter: ON PK Fc 65 Hz Gain 4 dB Q 1.0
+Filter: ON PK Fc 100 Hz Gain 4 dB Q 0.9
+Filter: ON PK Fc 180 Hz Gain 3 dB Q 0.9
+Filter: ON PK Fc 400 Hz Gain 2 dB Q 0.9
+Filter: ON PK Fc 800 Hz Gain 3 dB Q 0.8
+Filter: ON PK Fc 1500 Hz Gain 3 dB Q 0.8
+Filter: ON PK Fc 3000 Hz Gain 3 dB Q 0.8
+Filter: ON PK Fc 6000 Hz Gain 4 dB Q 0.9
+Filter: ON PK Fc 10000 Hz Gain 3 dB Q 1.0
