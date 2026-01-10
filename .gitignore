@@ -1,14 +1,29 @@
-# OS Files
+# Operating System Files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Editor
+# Editor Files
+*.swp
+*.swo
+*~
 .vscode/
 .idea/
 
-# Temporary
+# Temporary Files
 *.tmp
 *.bak
+*.log
 
-# User config (don't commit user's active config)
+# User-specific Files
 config.txt
+user_preferences.txt
+
+# Build/Test Files
+test/
+build/
+dist/
+
+# Documentation Build
+_site/
+.jekyll-cache/
