@@ -1,0 +1,14 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
+
+# User config (don't commit user's active config)
+config.txt
