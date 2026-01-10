@@ -1,0 +1,291 @@
+# ================================================================
+# CUSTOM PROFILE TEMPLATE
+# ================================================================
+# Use this template to create your own personalized EQ profile
+#
+# INSTRUCTIONS:
+# 1. Copy this entire file
+# 2. Rename it to: config_[yourname].txt
+# 3. Fill in your desired values (replace X with numbers)
+# 4. Add comments explaining your choices
+# 5. Test thoroughly before using regularly
+# 6. Save to your Equalizer APO config folder
+# ================================================================
+
+# ================================================================
+# PROFILE INFORMATION
+# ================================================================
+# Profile Name: [Give your profile a name]
+# Purpose: [What is this profile for? e.g., Gaming, My favorite music mix]
+# Focus: [What's most important? e.g., Clear vocals, Heavy bass, Natural sound]
+# Optimized for: [Your audio system, e.g., Logitech Z623, Sony WH-1000XM4]
+# Created: [Date]
+# Version: 1.0
+# ================================================================
+
+
+# ================================================================
+# PRE-AMPLIFICATION
+# ================================================================
+# IMPORTANT: Prevents distortion and clipping
+# Rule: More bass boost = more negative preamp
+# 
+# Suggested values:
+# -2 to -3 dB: Light EQ adjustments
+# -4 to -6 dB: Moderate EQ
+# -7 to -10 dB: Heavy bass boost
+#
+# Adjust if you hear distortion!
+
+Preamp: -X dB
+
+
+# ================================================================
+# SUB-BASS REGION (20-60 Hz)
+# ================================================================
+# This is what you FEEL in your chest
+# Requires good subwoofer
+# Too much can overwhelm small speakers
+#
+# Suggested ranges:
+# Light: +3 to +5 dB
+# Moderate: +6 to +9 dB
+# Heavy: +10 to +15 dB (subwoofer only!)
+#
+# Your settings:
+
+Filter: ON PK Fc 25 Hz Gain X dB Q 1.0
+Filter: ON PK Fc 35 Hz Gain X dB Q 1.0
+Filter: ON PK Fc 50 Hz Gain X dB Q 0.9
+
+
+# ================================================================
+# BASS REGION (60-250 Hz)
+# ================================================================
+# Warmth, body, and punch
+# Where most "bass" lives
+# 
+# Suggested ranges:
+# Light: +2 to +4 dB
+# Moderate: +5 to +8 dB
+# Heavy: +9 to +12 dB
+#
+# Note: Too much at 100-150 Hz can sound boomy
+#
+# Your settings:
+
+Filter: ON PK Fc 70 Hz Gain X dB Q 0.8
+Filter: ON PK Fc 90 Hz Gain X dB Q 0.8
+Filter: ON PK Fc 120 Hz Gain X dB Q 0.8
+Filter: ON PK Fc 180 Hz Gain X dB Q 0.9
+Filter: ON PK Fc 230 Hz Gain X dB Q 0.9
+
+
+# ================================================================
+# LOW-MIDS (250-500 Hz)
+# ================================================================
+# Careful here - can make sound muddy
+# Often reduced or kept flat
+#
+# Suggested: -2 to +2 dB (conservative)
+# Reduce if sound is muddy or boxy
+# Boost if sound is too thin
+#
+# Your settings:
+
+Filter: ON PK Fc 300 Hz Gain X dB Q 0.8
+Filter: ON PK Fc 450 Hz Gain X dB Q 0.8
+
+
+# ================================================================
+# MIDRANGE (500 Hz - 2 kHz)
+# ================================================================
+# CRITICAL for vocal clarity
+# Most important for speech/vocals
+#
+# Suggested ranges:
+# Light: +1 to +3 dB
+# Moderate: +3 to +5 dB
+# Forward vocals: +5 to +7 dB
+#
+# Your settings:
+
+Filter: ON PK Fc 700 Hz Gain X dB Q 0.8
+Filter: ON PK Fc 1000 Hz Gain X dB Q 0.7
+Filter: ON PK Fc 1500 Hz Gain X dB Q 0.7
+
+
+# ================================================================
+# UPPER-MIDS / PRESENCE (2-5 kHz)
+# ================================================================
+# Clarity, definition, "presence"
+# Makes things sound closer and more defined
+#
+# Suggested ranges:
+# Light: +2 to +4 dB
+# Moderate: +4 to +6 dB
+# High clarity: +7 to +9 dB
+#
+# WARNING: Too much can be harsh and fatiguing
+#
+# Your settings:
+
+Filter: ON PK Fc 2500 Hz Gain X dB Q 0.7
+Filter: ON PK Fc 3500 Hz Gain X dB Q 0.7
+Filter: ON PK Fc 4500 Hz Gain X dB Q 0.8
+
+
+# ================================================================
+# TREBLE (5-10 kHz)
+# ================================================================
+# Sparkle, detail, brightness
+# Cymbals, hi-hats, vocal sibilance
+#
+# Suggested ranges:
+# Light: +2 to +4 dB
+# Moderate: +4 to +6 dB
+# Bright: +7 to +9 dB
+#
+# Note: 6-8 kHz can cause harsh "S" sounds
+#
+# Your settings:
+
+Filter: ON PK Fc 6000 Hz Gain X dB Q 0.8
+Filter: ON PK Fc 8000 Hz Gain X dB Q 0.9
+Filter: ON PK Fc 9500 Hz Gain X dB Q 0.9
+
+
+# ================================================================
+# SUPER TREBLE / AIR (10-16 kHz)
+# ================================================================
+# Spaciousness, "air", subtle harmonics
+# Not all speakers reproduce this well
+#
+# Suggested ranges:
+# Light: +1 to +3 dB
+# Moderate: +3 to +5 dB
+# Airy: +5 to +7 dB
+#
+# Your settings:
+
+Filter: ON PK Fc 11000 Hz Gain X dB Q 1.0
+Filter: ON PK Fc 13000 Hz Gain X dB Q 1.0
+Filter: ON PK Fc 15000 Hz Gain X dB Q 1.1
+
+
+# ================================================================
+# OPTIONAL: ROOM CORRECTION
+# ================================================================
+# If your room has specific issues, uncomment and adjust these
+# Use to cut problem frequencies (room modes, resonances)
+#
+# Common room problems:
+# 100-150 Hz: Boomy bass in small rooms
+# 200-300 Hz: Room resonance
+#
+# Uncomment (remove #) if needed:
+
+# Filter: ON PK Fc 120 Hz Gain -3 dB Q 2.0
+# Filter: ON PK Fc 250 Hz Gain -2 dB Q 2.0
+
+
+# ================================================================
+# OPTIONAL: SPEAKER-SPECIFIC ADJUSTMENTS
+# ================================================================
+# Add filters here for your specific speakers
+# Example: Reduce harsh tweeter frequency
+#
+# Uncomment and adjust if needed:
+
+# Filter: ON PK Fc 7000 Hz Gain -2 dB Q 2.5
+
+
+# ================================================================
+# CUSTOMIZATION NOTES
+# ================================================================
+# Document your adjustments here:
+#
+# [Date] - [What you changed] - [Why you changed it]
+#
+# Example:
+# 2025-01-10 - Increased 50 Hz from +8 to +10 dB - Wanted more sub-bass impact
+# 2025-01-11 - Reduced 3000 Hz from +6 to +4 dB - Was too harsh on vocals
+#
+# Your notes:
+# 
+#
+#
+#
+# ================================================================
+
+
+# ================================================================
+# TESTING CHECKLIST
+# ================================================================
+# Before using this profile regularly, test with:
+#
+# [ ] Bass-heavy track (hip hop, EDM)
+# [ ] Vocal-focused track (acoustic, ballad)
+# [ ] Complex track (orchestra, full band)
+# [ ] Track you know extremely well
+# [ ] At low volume (20-30%)
+# [ ] At moderate volume (50-60%)
+# [ ] At loud volume (80%+)
+# [ ] Listen for distortion
+# [ ] Listen for muddiness
+# [ ] Listen for harshness
+# [ ] Test for extended period (30+ minutes)
+#
+# ================================================================
+
+
+# ================================================================
+# HELPFUL TIPS
+# ================================================================
+#
+# 1. START CONSERVATIVE:
+#    - Begin with small values (+/- 3 dB)
+#    - Increase gradually
+#    - It's easier to add more than fix too much
+#
+# 2. ADJUST ONE THING AT A TIME:
+#    - Change one frequency
+#    - Test thoroughly
+#    - Move to next adjustment
+#
+# 3. TAKE BREAKS:
+#    - Your ears adjust to EQ over time
+#    - Take 15-minute breaks during testing
+#    - Come back with fresh ears
+#
+# 4. A/B COMPARE:
+#    - Toggle EQ on/off frequently
+#    - Compare to original sound
+#    - Make sure changes are improvements
+#
+# 5. TEST WITH VARIETY:
+#    - Don't optimize for just one song
+#    - Test across multiple genres
+#    - Ensure it sounds good everywhere
+#
+# 6. SAVE VERSIONS:
+#    - config_custom_v1.txt
+#    - config_custom_v2.txt
+#    - Easy to go back if needed
+#
+# 7. DOCUMENT EVERYTHING:
+#    - Write notes about your changes
+#    - Explain your reasoning
+#    - Future you will thank you!
+#
+# ================================================================
+
+
+# ================================================================
+# NEED HELP?
+# ================================================================
+# - Read: docs/customization-guide.md
+# - Read: docs/frequency-guide.md
+# - Check: docs/troubleshooting.md
+# - GitHub Issues: Report problems or ask questions
+# ================================================================

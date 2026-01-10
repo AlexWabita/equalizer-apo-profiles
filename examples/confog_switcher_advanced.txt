@@ -1,0 +1,175 @@
+# ================================================================
+# ADVANCED MULTI-PROFILE SWITCHER
+# ================================================================
+# This method keeps all profiles visible for quick switching
+#
+# HOW TO USE:
+# 1. All profiles are listed below with # at the start
+# 2. To activate a profile, REMOVE the # from its line
+# 3. To deactivate, ADD # back to the start of the line
+# 4. Only ONE profile should be active (without #) at a time
+# 5. Save and reload in Configuration Editor
+# ================================================================
+
+# ================================================================
+# CURRENTLY ACTIVE PROFILE
+# ================================================================
+# The profile WITHOUT # is currently active
+# Change by adding # to current one and removing # from desired one
+
+Include: occasions/config_balanced.txt
+
+
+# ================================================================
+# OCCASION-BASED PROFILES
+# ================================================================
+# Remove # from the one you want to use
+# Remember to add # back to the currently active one!
+
+# ── HIGH ENERGY ──────────────────────────────────────────────
+# Include: occasions/config_party.txt          # Maximum bass, loud events
+# Include: occasions/config_workout.txt        # High energy, motivating
+
+# ── RELAXED & CALM ───────────────────────────────────────────
+# Include: occasions/config_night.txt          # Quiet, neighbor-friendly
+# Include: occasions/config_meditation.txt     # Calm, centering
+# Include: occasions/config_prayer.txt         # Contemplative, focused
+
+# ── ROMANTIC & INTIMATE ──────────────────────────────────────
+# Include: occasions/config_intimate.txt       # Warm, enveloping
+# Include: occasions/config_romantic.txt       # Natural, emotional
+
+# ── ENTERTAINMENT ────────────────────────────────────────────
+# Include: occasions/config_movie.txt          # Cinematic, impactful
+# Include: occasions/config_morning.txt        # Bright, energizing
+
+# ── SPIRITUAL ────────────────────────────────────────────────
+# Include: occasions/config_worship.txt        # Clear, uplifting
+
+# ── COMMERCIAL SPACES ────────────────────────────────────────
+# Include: occasions/config_coffeeshop.txt     # Background ambiance
+# Include: occasions/config_retail.txt         # Engaging, pleasant
+# Include: occasions/config_hotel.txt          # Sophisticated
+
+
+# ================================================================
+# GENRE-BASED PROFILES
+# ================================================================
+# Optimized for specific music styles
+
+# ── URBAN & HIP HOP ──────────────────────────────────────────
+# Include: genres/config_hiphop.txt            # Deep bass, punchy
+# Include: genres/config_trap.txt              # Heavy 808s
+# Include: genres/config_rap.txt               # Vocal-focused
+
+# ── R&B & SOUL ───────────────────────────────────────────────
+# Include: genres/config_rnb.txt               # Smooth, warm
+
+# ── POP ──────────────────────────────────────────────────────
+# Include: genres/config_pop.txt               # Bright, balanced
+
+# ── REGGAE & CARIBBEAN ───────────────────────────────────────
+# Include: genres/config_reggae.txt            # Deep bass groove
+# Include: genres/config_riddim.txt            # Massive sub-bass
+# Include: genres/config_dancehall.txt         # Energetic rhythms
+
+# ── ELECTRONIC ───────────────────────────────────────────────
+# Include: genres/config_edm.txt               # Festival energy
+# Include: genres/config_techno.txt            # Precise electronic
+# Include: genres/config_house.txt             # Groovy four-on-floor
+
+# ── ROCK & GUITAR ────────────────────────────────────────────
+# Include: genres/config_rock.txt              # Punchy mids, guitar
+
+# ── SPIRITUAL & GOSPEL ───────────────────────────────────────
+# Include: genres/config_gospel.txt            # Uplifting, powerful
+
+# ── CLASSICAL ────────────────────────────────────────────────
+# Include: genres/config_classical.txt         # Natural, wide range
+
+
+# ================================================================
+# TIME-BASED QUICK SWITCH SUGGESTIONS
+# ================================================================
+#
+# MORNING (6 AM - 12 PM):
+# - config_morning.txt (energizing)
+# - config_balanced.txt (work background)
+# - config_coffeeshop.txt (relaxed start)
+#
+# AFTERNOON (12 PM - 6 PM):
+# - config_balanced.txt (general listening)
+# - config_workout.txt (gym time)
+# - Genre-specific for focused listening
+#
+# EVENING (6 PM - 10 PM):
+# - config_party.txt (gatherings)
+# - config_romantic.txt (dinner)
+# - config_movie.txt (entertainment)
+# - Genre-specific for your music
+#
+# NIGHT (10 PM - 6 AM):
+# - config_night.txt (quiet hours)
+# - config_meditation.txt (relaxation)
+# - config_prayer.txt (reflection)
+#
+# ================================================================
+# ACTIVITY-BASED SUGGESTIONS
+# ================================================================
+#
+# WORKING/STUDYING:
+# - config_balanced.txt
+# - config_classical.txt
+# - config_coffeeshop.txt
+#
+# EXERCISING:
+# - config_workout.txt
+# - config_party.txt
+# - config_hiphop.txt / config_edm.txt
+#
+# RELAXING:
+# - config_meditation.txt
+# - config_night.txt
+# - config_classical.txt
+#
+# ENTERTAINING GUESTS:
+# - config_party.txt
+# - config_balanced.txt
+# - Genre-based on music played
+#
+# ROMANTIC EVENING:
+# - config_romantic.txt
+# - config_intimate.txt
+# - config_rnb.txt / config_gospel.txt
+#
+# ================================================================
+# PRO TIPS
+# ================================================================
+#
+# 1. QUICK SWITCHING:
+#    - Keep this file open in Notepad
+#    - Add/remove # as needed
+#    - Save (Ctrl+S)
+#    - Alt+Tab to Configuration Editor
+#    - Click Reload (Ctrl+R)
+#
+# 2. TESTING PROFILES:
+#    - Use songs you know extremely well
+#    - Switch back and forth to compare
+#    - Take breaks (ears adjust over time)
+#
+# 3. VOLUME LEVELS:
+#    - Different profiles work best at different volumes
+#    - Party/Workout: Can go loud
+#    - Night/Meditation: Better at lower volumes
+#
+# 4. COMBINING WITH MANUAL ADJUSTMENTS:
+#    - You can add extra filters below the Include line
+#    - Example: Add room correction or personal tweaks
+#
+# 5. BACKUP YOUR FAVORITES:
+#    - Copy this file occasionally
+#    - Save as config_backup.txt
+#    - Easy to restore if something breaks
+#
+# ================================================================

@@ -2,6 +2,10 @@
 
 A comprehensive collection of 28+ professionally tuned Equalizer APO configurations optimized for indoor subwoofer systems. Transform your audio experience with profiles designed for every occasion and music genre.
 
+
+[![GitHub release](https://img.shields.io/github/v/release/AlexWabita/equalizer-apo-profiles)](https://github.com/AlexWabita/equalizer-apo-profiles/releases)
+[![GitHub stars](https://img.shields.io/github/stars/AlexWabita/equalizer-apo-profiles)](https://github.com/AlexWabita/equalizer-apo-profiles/stargazers)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Equalizer APO](https://img.shields.io/badge/Equalizer%20APO-Compatible-blue)](https://sourceforge.net/projects/equalizerapo/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)

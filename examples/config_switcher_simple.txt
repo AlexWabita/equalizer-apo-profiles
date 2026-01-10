@@ -1,0 +1,75 @@
+# ================================================================
+# SIMPLE PROFILE SWITCHER
+# ================================================================
+# This is the easiest way to switch between profiles
+# 
+# HOW TO USE:
+# 1. Save this file as config.txt in your Equalizer APO config folder
+# 2. Change the filename below to the profile you want to use
+# 3. Save the file
+# 4. Click "Reload" in Configuration Editor
+#
+# That's it! No need to copy/paste entire configurations.
+# ================================================================
+
+# ================================================================
+# ACTIVE PROFILE - Change this line to switch profiles
+# ================================================================
+
+Include: occasions/config_balanced.txt
+
+# ================================================================
+# AVAILABLE PROFILES - Copy one of these lines above
+# ================================================================
+#
+# OCCASION-BASED:
+# Include: occasions/config_party.txt
+# Include: occasions/config_night.txt
+# Include: occasions/config_intimate.txt
+# Include: occasions/config_romantic.txt
+# Include: occasions/config_movie.txt
+# Include: occasions/config_morning.txt
+# Include: occasions/config_balanced.txt
+# Include: occasions/config_worship.txt
+# Include: occasions/config_meditation.txt
+# Include: occasions/config_workout.txt
+# Include: occasions/config_prayer.txt
+# Include: occasions/config_coffeeshop.txt
+# Include: occasions/config_retail.txt
+# Include: occasions/config_hotel.txt
+#
+# GENRE-BASED:
+# Include: genres/config_hiphop.txt
+# Include: genres/config_rnb.txt
+# Include: genres/config_pop.txt
+# Include: genres/config_reggae.txt
+# Include: genres/config_riddim.txt
+# Include: genres/config_trap.txt
+# Include: genres/config_gospel.txt
+# Include: genres/config_dancehall.txt
+# Include: genres/config_rock.txt
+# Include: genres/config_techno.txt
+# Include: genres/config_rap.txt
+# Include: genres/config_classical.txt
+# Include: genres/config_house.txt
+# Include: genres/config_edm.txt
+#
+# ================================================================
+# QUICK SWITCHING TIPS
+# ================================================================
+#
+# Method 1: Copy and Replace
+# - Copy the line of the profile you want
+# - Paste it to replace the "Include:" line at the top
+# - Save and reload
+#
+# Method 2: Edit Directly
+# - Change just the filename part
+# - Keep "Include: occasions/" or "Include: genres/"
+# - Save and reload
+#
+# Example:
+# From: Include: occasions/config_balanced.txt
+# To:   Include: occasions/config_party.txt
+#
+# ================================================================
