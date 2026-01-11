@@ -22,7 +22,7 @@ A comprehensive collection of 28+ professionally tuned Equalizer APO configurati
 ## 📋 Table of Contents
 
 - [Requirements](#requirements)
-- [Installation](#docks/installation_guide.md)
+- [Installation](#installation)
 - [Profile Categories](#profile-categories)
 - [Usage Guide](#usage-guide)
 - [Configuration Details](#configuration-details)
